@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="calc-bg">
+
+    <nav class="nav-light">
+        <h2 class="logo-light">NeonCalc</h2>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="calculator.html" class="active-light">Calculator</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="calc-container">
+        <div class="calc-card">
+            <input id="display" class="display" type="text" disabled>
+
+            <div class="btn-grid">
+                <button onclick="press('7')">7</button>
+                <button onclick="press('8')">8</button>
+                <button onclick="press('9')">9</button>
+                <button class="op" onclick="press('/')">÷</button>
+
+                <button onclick="press('4')">4</button>
+                <button onclick="press('5')">5</button>
+                <button onclick="press('6')">6</button>
+                <button class="op" onclick="press('*')">×</button>
+
+                <button onclick="press('1')">1</button>
+                <button onclick="press('2')">2</button>
+                <button onclick="press('3')">3</button>
+                <button class="op" onclick="press('-')">−</button>
+
+                <button onclick="press('0')">0</button>
+                <button onclick="press('.')">.</button>
+                <button class="eq" onclick="calculate()">=</button>
+                <button class="op" onclick="press('+')">+</button>
+
+                <button class="clear" onclick="clearDisplay()">CLEAR</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
