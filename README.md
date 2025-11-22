@@ -1,4 +1,8 @@
 # 🌟 NeonCalc – Stylish Multi-Page Light Theme Calculator  
+
+[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-blue?style=for-the-badge)](https://ayush2809-tech.github.io/NeonCalc-Light/)
+
+# 🌟 NeonCalc – Stylish Multi-Page Light Theme Calculator  
 ### **CodeAlpha – Frontend Development Internship (Task 2)**  
 Created by **Ayush Saxena**
 
